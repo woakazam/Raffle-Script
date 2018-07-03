@@ -1,0 +1,36 @@
+*{font-family: 'Roboto', sans-serif;}
+
+nav{
+    border: 0;
+    background: #563D7C !important;
+}
+nav a.nav-link{
+    font-weight: 500;
+    color: #D2D2D2 !important;
+}
+nav a.nav-link:hover{color: #FFF !important;}
+
+h3.main-title::after{
+    content: "";
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 120px;
+    margin: 0 auto;
+    position: absolute;
+    border-bottom: 2px solid #007BFF;
+}
+
+button.btn{
+    border: 0;
+    letter-spacing: 0.5px;
+}
+button.btn:focus{box-shadow: none;}
+
+.badge-list{
+    font-size: 14px;
+    font-weight: 400;
+    vertical-align: bottom;
+}
+
+nav, select, textarea, button, .card, .badge{border-radius: 0 !important;}
