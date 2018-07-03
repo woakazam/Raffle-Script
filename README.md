@@ -1,2 +1,1 @@
-# Raffle-Script
-a Simple Raffle Script
+Just Upload Files to Host.
